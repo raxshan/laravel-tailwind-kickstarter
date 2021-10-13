@@ -36,6 +36,12 @@ Route::get('/page-template', function () {
 })->middleware('auth');
 
 
+Route::get('/blog', 'BlogController@create');
+Route::post('/blog', 'BlogController@store');
+Route::get('/blog/{id}', 'BlogController@details');
+Route::post('/blog/{id}', 'BlogController@update');
+Route::get('/blog/{id}/delete', 'BlogController@destroy');
+
 Route::get('/register', 'RegistrationController@create');
 Route::post('/register', 'RegistrationController@store');
 

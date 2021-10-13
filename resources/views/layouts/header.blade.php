@@ -3,7 +3,7 @@
     <div class="flex h-auto my-1">
       <div class="my-auto">
         <a class="cursor-pointer" href="{{ url('/') }}">
-          <img class="h-10 md:h-12" src="./images/logo.png" alt />
+          <img class="h-10 md:h-12" src="{{asset('images/logo.png')}}" alt />
         </a> 
       </div>
       <div class="flex-grow text-right my-auto">

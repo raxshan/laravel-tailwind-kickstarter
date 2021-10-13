@@ -34,6 +34,13 @@
       </a>
 
       <a
+        href="{{ url('/blog') }}"
+        class="block items-center mt-4 py-2 px-3 border-l-4 border-primary text-gray-300 hover:border-gray-200 hover:bg-gray-600 hover:bg-opacity-25 hover:text-white"
+      >
+        <i class="fab fa-blogger mr-3"></i> Blog
+      </a>
+
+      <a
         href="{{ url('/page-template') }}"
         class="block items-center mt-4 py-2 px-3 border-l-4 border-primary text-gray-300 hover:border-gray-200 hover:bg-gray-600 hover:bg-opacity-25 hover:text-white"
       >
