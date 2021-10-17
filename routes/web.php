@@ -49,3 +49,8 @@ Route::get('/login', 'LoginController@create');
 Route::post('/login', 'LoginController@store');
 Route::get('/logout', 'LoginController@destroy');
 
+
+
+View::composer('*', function ($view) {
+    View::share('viewName', $view->getName());
+});

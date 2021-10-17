@@ -17,7 +17,7 @@
     ></script>
   </head>
 
-  <body>
+  <body id="page-{{ $viewName }}">
     <!-- @section('sidebar')
         This is the master sidebar.
     @show -->
